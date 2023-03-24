@@ -35,6 +35,8 @@ NAME               STATUS   ROLES    AGE   VERSION
 ip-172-31-42-117   Ready    <none>   75s   v1.26.2+k0s
 ip-172-31-42-230   Ready    <none>   69s   v1.26.2+k0s
 ```
+Note: You also save the kubeconfig to you $HOME/.kube, so that you don't need to mention path "--kubeconfig k0s.config"
+
 ## k0sctl reset
 Uninstall k0s from the hosts listed in the configuration.
 

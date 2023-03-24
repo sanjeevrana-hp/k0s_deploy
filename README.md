@@ -15,7 +15,7 @@ Install the k0sctl binary using "https://github.com/k0sproject/k0sctl/releases"
   use the link https://github.com/k0sproject/k0sctl/releases/
 
 ## Installation ( Infra build & K0s installation )
-- TF Steps
+- Terraform Steps
   ```python
    terraform init
    terraform apply

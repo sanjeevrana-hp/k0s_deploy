@@ -14,6 +14,9 @@ Install the k0sctl binary using "https://github.com/k0sproject/k0sctl/releases"
 - Install the k0sctl binary
   use the link https://github.com/k0sproject/k0sctl/releases/
 
+- Install kubectl binary
+  use the link https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+
 ## Installation ( Infra build & K0s installation )
 - Terraform Steps
   ```python

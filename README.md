@@ -18,6 +18,8 @@ Install the k0sctl binary using "https://github.com/k0sproject/k0sctl/releases"
   use the link https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
 
 ## Installation ( Infra build & K0s installation )
+- Do the changes in terraform.tfvars for count, instance_type, region etc.
+
 - Terraform Steps
   ```python
    terraform init

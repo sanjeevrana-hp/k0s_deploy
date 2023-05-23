@@ -1,5 +1,5 @@
-controller_count = 2
-worker_count = 2
+controller_count = 1
+worker_count = 1
 instance_type_controller = "t2.large"
 instance_type_worker = "t2.medium"
 region = "ap-northeast-1"

@@ -26,7 +26,7 @@ Install the k0sctl binary using "https://github.com/k0sproject/k0sctl/releases"
    terraform apply
    terraform output -raw k0s_cluster | k0sctl apply --config -
   ```
-NOTE: this assumes that `k0sctl` binary is available in the `PATH`
+## NOTE: this assumes that `k0sctl` binary is available in the `PATH`. Also if you want to update the k0s version then check the tag detail from https://github.com/k0sproject/k0s/tags, and update the value in instance.tf file.
 This will create a cluster with single controller and worker nodes.
 If you want to override the default behaviour. Create a `terraform.tfvars` file with the needed details. You can use the provided `terraform.tfvars.example` as a template.
 

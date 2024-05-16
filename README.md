@@ -19,6 +19,7 @@ Install the k0sctl binary using "https://github.com/k0sproject/k0sctl/releases"
 
 ## Installation ( Infra build & K0s installation )
 - Do the changes in terraform.tfvars for count, instance_type, region etc.
+- If you need to mention the specfic version of k0s, calico or other component then update the instance.tf file
 
 - Terraform Steps
   ```python

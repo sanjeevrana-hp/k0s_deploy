@@ -44,8 +44,12 @@ Note: You also save the kubeconfig to you $HOME/.kube, so that you don't need to
 
 ## k0sctl reset
 Uninstall k0s from the hosts listed in the configuration.
-
+```python
+terraform output -raw k0s_cluster | k0sctl reset --force --config -
+```
 ## To destroy the infra, run the below terraform command, this will destroy infra & k0s both.
 ```python
 terraform destroy --auto-approve
 ```
+## Reference links
+https://github.com/k0sproject/k0sctl#installation

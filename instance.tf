@@ -126,7 +126,18 @@ locals {
         }
       ]
       k0s = {
-        version = "1.26.2+k0s.1"
+        version = "v1.30.0+k0s.0"
+        config = {
+          apiVersion = "k0s.k0sproject.io/v1beta1"
+          kind = "ClusterConfig"
+          spec = {
+            network = {
+               provider = "calico"
+               podCIDR = "172.168.10.0/24"
+               serviceCIDR = "192.168.20.0/24"
+            }
+        }
+        }
       }
     }
   }

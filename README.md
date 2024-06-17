@@ -62,5 +62,7 @@ timeout: 10
 ```
 ## Reference links
 https://github.com/k0sproject/k0sctl#installation
+
 https://github.com/k0sproject/k0sctl#installation
+
 https://github.com/kubernetes-sigs/cri-tools/releases/

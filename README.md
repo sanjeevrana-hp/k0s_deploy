@@ -54,7 +54,7 @@ terraform destroy --auto-approve
 ```
 
 ## Additional 
-Install the crictl using the ref link, then create the file on the nodes and put the below entries, so that we can run crictl commands to check the containers.
+Install the crictl using https://github.com/kubernetes-sigs/cri-tools/releases/, then create the file on the nodes and put the below entries, so that we can run crictl commands to check the containers.
 ```# cat /etc/crictl.yaml
 runtime-endpoint: unix:///run/k0s/containerd.sock
 image-endpoint: unix:///run/k0s/containerd.sock
@@ -62,7 +62,3 @@ timeout: 10
 ```
 ## Reference links
 https://github.com/k0sproject/k0sctl#installation
-
-https://github.com/k0sproject/k0sctl#installation
-
-https://github.com/kubernetes-sigs/cri-tools/releases/
